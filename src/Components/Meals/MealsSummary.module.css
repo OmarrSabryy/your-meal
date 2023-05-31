@@ -1,0 +1,20 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  width: 40rem;
+  z-index: 1;
+  color: white;
+  background-color: #3d3c3c;
+  border-radius: 1.4rem;
+  gap: 1rem;
+  font-weight: bold;
+  font-style: oblique;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 480px) {
+  .summary {
+    width: 30rem;
+  }
+}

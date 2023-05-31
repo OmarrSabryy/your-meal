@@ -1,0 +1,25 @@
+.meal-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid rgba(160, 160, 160, 0.603);
+}
+.meal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.meal-description {
+  font-style: oblique;
+  color: rgb(58, 58, 58);
+  font-size: 1.2rem;
+}
+.meal-price {
+  font-size: 1.5rem;
+  color: rgb(168, 82, 48);
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.input {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.input label {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.input input {
+  width: 3.5rem;
+  height: 2rem;
+  text-align: center;
+  text-indent: 1rem;
+  border: 0.1rem solid rgba(203, 211, 216, 0.932);
+}
+.input input:focus {
+  outline: none;
+}
